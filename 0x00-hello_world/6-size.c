@@ -12,11 +12,11 @@ for (int i=0; i<5; i++)
 {
 if (data_type[i] == "int")
 {
-printf("Size of an %s: %d byte(s)\n", data_type[i], sizeof(data_type[i]);
+printf("Size of an %s: %d byte(s)\n", data_type[i], sizeof(data_type[i]));
 }
 else
 {
-printf("Size of a %s: %d byte(s)\n", data_type[i], sizeof(data_type[i]);
+printf("Size of a %s: %d byte(s)\n", data_type[i], sizeof(data_type[i]));
 }
 return (0);
 }
