@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+/**
+ * main - Prints out a string to standard error
+ *
+ * Return: 1
+ */
+int main(void)
+{
+  printf("and that piece of art is useful\" - Dora Korpa, 2015-10-19\n");
+  return (1);
+}
+  
