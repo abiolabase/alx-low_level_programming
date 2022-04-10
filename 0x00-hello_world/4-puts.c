@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int main () {
+int main() {
+  /* This program prints string to stdout*/
+  
   char mystr[] = "\"Programming is like building a multilingual puzzle";
   puts(mystr);
-  return 0;
+  return (0);
 }
