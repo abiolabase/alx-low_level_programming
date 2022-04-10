@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char data_type[] = {"char", "int", "long int", "long long int", "float"};
+char data_type[5][13] = {"char", "int", "long int", "long long int", "float"};
 for (i=0; i<5; i++)
 {
 if (data_type[i] == "int")
