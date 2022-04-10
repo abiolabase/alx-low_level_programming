@@ -19,5 +19,6 @@ else
 {
 printf("Size of a %s: %d byte(s)\n", data_type[i], (int)sizeof(data_type[i]));
 }
+}
 return (0);
 }
