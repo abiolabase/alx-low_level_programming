@@ -1,0 +1,1 @@
+This is the foundation of my debugging skills
