@@ -8,17 +8,10 @@
 int main(void)
 {
 char data_type[5][13] = {"char", "int", "long int", "long long int", "float"};
-int i;
-for (i=0; i<5; i++)
-{
-if (data_type[i] == "int")
-{
-printf("Size of an %s: %d byte(s)\n", data_type[i], (int)sizeof(data_type[i]));
-}
-else
-{
-printf("Size of a %s: %d byte(s)\n", data_type[i], (int)sizeof(data_type[i]));
-}
-}
+printf("Size of a %s: %d byte(s)\n", data_type[i], (int)sizeof(char);
+printf("Size of an %s: %d byte(s)\n", data_type[i], (int)sizeof(int);
+printf("Size of a %s: %d byte(s)\n", data_type[i], (int)sizeof(long int);
+printf("Size of a %s: %d byte(s)\n", data_type[i], (int)sizeof(long long int);
+printf("Size of a %s: %d byte(s)\n", data_type[i], (int)sizeof(float);
 return (0);
 }
