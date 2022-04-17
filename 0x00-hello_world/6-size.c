@@ -9,10 +9,10 @@ int main(void)
 {
 int i;
 char data_type[5][13] = {"char", "int", "long int", "long long int", "float"};
-printf("Size of a %s: %d byte(s)\n", data_type[0], (int)sizeof(char));
-printf("Size of an %s: %d byte(s)\n", data_type[1], (int)sizeof(int));
-printf("Size of a %s: %d byte(s)\n", data_type[2], (int)sizeof(long int));
-printf("Size of a %s: %d byte(s)\n", data_type[3], sizeof(long long int));
-printf("Size of a %s: %d byte(s)\n", data_type[4], (int)sizeof(float));
+printf("Size of a %s: %d byte(s)\n", "char", sizeof(char));
+printf("Size of an %s: %d byte(s)\n", "int", sizeof(int));
+printf("Size of a %s: %d byte(s)\n", "long int", sizeof(long int));
+printf("Size of a %s: %d byte(s)\n", "long long int", sizeof(long long int));
+printf("Size of a %s: %d byte(s)\n", "float", sizeof(float));
 return (0);
 }
