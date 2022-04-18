@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+/**
+ * main - prints alphabet to display
+ *
+ * Return: 0
+ */
+int main(void)
+{
+int c;
+c = 0;
+while (c <= 9)
+{
+printf("%d\n",c);
+c++;
+}
+return (0);
+}
