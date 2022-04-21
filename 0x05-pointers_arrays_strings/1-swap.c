@@ -13,5 +13,5 @@ int c;
 c = &a;
 *a = &b;
 *b = c;
-Return (0);
+return (0);
 }
