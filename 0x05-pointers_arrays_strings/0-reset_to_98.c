@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - reset the value of a pointer
- * @*n: input address to be reset
+ * @n: input address to be reset
  *
  * Return: void
  */
