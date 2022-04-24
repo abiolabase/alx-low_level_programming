@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * rev_string - prints string in reverse to stdout
+ * @s: string to print
+ *
+ * Return: Void
+ */
+void rev_string(char *s)
+{
+int i;
+int strlen;
+char *y;
+strlen = 0;
+while (s[strlen] != '\0')
+{
+strlen += 1;
+}
+y = s;
+for (i = 0; i < strlen; i++)
+{
+*y[i] = *s[(strlen - 1) - i];
+}
+printf("%s\n", y);
+}
