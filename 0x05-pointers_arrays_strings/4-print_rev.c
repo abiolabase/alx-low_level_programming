@@ -18,7 +18,7 @@ strlen += 1;
 for (i = 0; i < strlen / 2; i++)
 {
 temp = s[i];
-s[i] = s[strlen - i];
+s[i] = s[strlen - i - 1];
 s[strlen - i] = temp;
 printf("%s\n", s);
 }
