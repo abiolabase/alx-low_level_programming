@@ -11,12 +11,13 @@ void print_rev(char *s)
 {
 int i;
 int strlen;
+char *y;
 strlen = 0;
 while (s[strlen] != '\0')
 {
 strlen += 1;
 }
-char y[];
+y = s;
 for (i = 0; i < strlen; i++)
 {
 y[i] = s[strlen - i];
