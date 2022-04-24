@@ -10,7 +10,6 @@
 void puts2(char *s)
 {
 int i, l;
-char *t;
 l = 0;
 while (s[l] != '\0')
 {
@@ -18,6 +17,7 @@ l++;
 }
 for (i = 0; i < l && s[i] != '\0' && i % 2 == 0; i++)
 {
-printf("%d\n", s[i]);
+printf("%d", s[i]);
 }
+printf("\n"); 
 }
