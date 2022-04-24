@@ -15,9 +15,12 @@ while (s[l] != '\0')
 {
 l++;
 }
-for (i = 0; i < l && s[i] != '\0' && i % 2 == 0; i++)
+for (i = 0; i < l; i++)
+{
+if (i % 2 == 0; i++)
 {
 printf("%c", s[i]);
 }
-printf("\n"); 
+}
+printf("\n");
 }
