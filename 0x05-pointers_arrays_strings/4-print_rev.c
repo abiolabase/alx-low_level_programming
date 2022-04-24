@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.h>
 
 /**
- * _print_rev - prints string in reverse to stdout
+ * print_rev - prints string in reverse to stdout
  * @s: string to print
  *
  * Return: Void
  */
-void _print_rev(char *s)
+void print_rev(char *s)
 {
 int i;
 int strlen;
