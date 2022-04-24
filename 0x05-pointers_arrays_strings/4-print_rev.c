@@ -19,7 +19,7 @@ for (i = 0; i < strlen / 2; i++)
 {
 temp = s[i];
 s[i] = s[strlen - i - 1];
-s[strlen - i -1] = temp;
+s[strlen - i - 1] = temp;
 printf("%s\n", s);
 }
 }
