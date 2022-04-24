@@ -18,9 +18,9 @@ while (s[strlen] != '\0')
 strlen += 1;
 }
 y = s;
-for (i = 0; i < strlen; i++)
+ for (i = 0; i < strlen; i++)
 {
-y[i] = s[strlen - i];
+  y[i] = s[(strlen - 1) - i];
 }
 printf("%s\n", y);
 }
