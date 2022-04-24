@@ -16,7 +16,7 @@ while (s[strlen] != '\0')
 {
 strlen += 1;
 }
- char y[strlen];
+char y[];
 for (i = 0; i < strlen; i++)
 {
 y[i] = s[strlen - i];
