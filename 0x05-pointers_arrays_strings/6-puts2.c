@@ -17,7 +17,7 @@ l++;
 }
 for (i = 0; i < l && s[i] != '\0' && i % 2 == 0; i++)
 {
-printf("%d", s[i]);
+printf("%c", s[i]);
 }
 printf("\n"); 
 }
