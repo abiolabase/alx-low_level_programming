@@ -20,7 +20,7 @@ while (s[strlen] != '\0')
 strlen += 1;
 e++;
 }
-for (i = 0; i < strlen/2; i++)
+for (i = 0; i < strlen / 2; i++)
 {
 v = *b;
 *b = *(e - 1);
