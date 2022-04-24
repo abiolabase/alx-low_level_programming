@@ -11,7 +11,7 @@ void _print_rev(char *s)
 {
 char y[strlen(s)];
 int i;
-for (i = 0; i < strlen(s); i++)
+ for (i = 0; i < (int)strlen(s); i++)
 {
 y[i] = s[strlen(s) - i];
 }
