@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * rev_string - prints string in reverse to stdout
+ * print_rev - prints string in reverse to stdout
  * @s: string to print
  *
  * Return: Void
  */
-void rev_string(char *s)
+void print_rev(char *s)
 {
 int i, strlen, temp;
 strlen = 0;
