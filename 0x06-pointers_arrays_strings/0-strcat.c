@@ -26,6 +26,6 @@ i++;
 j++;
 }
 tmp[j] = '\0';
-*dest = tmp;
+*dest = *tmp;
 return (dest);
 }
