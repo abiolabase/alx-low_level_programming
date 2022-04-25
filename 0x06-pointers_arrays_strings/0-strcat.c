@@ -11,18 +11,21 @@
 void _strcat(char *dest, char *src)
 {
 int i = 0, j = 0;
-int strlen;
+char *tmp;
 while (dest[i] != '\0')
 {
-*dest[i] = dest[i];
-i++; 
-}
-while (src[j] != '\0')
-{
-*dest[i] = src[j];
+tmp[j] = dest[i];
 i++;
 j++;
 }
-*dest[i] = '\0';
+i = 0;
+while (src[j] != '\0')
+{
+tmp[j] = src[i];
+i++;
+j++;
+}
+tmp[j] = '\0';
+*dest = tmp;
 return (dest);
 }
