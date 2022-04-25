@@ -1,0 +1,1 @@
+This is to further practice pointers, arrays and strings
