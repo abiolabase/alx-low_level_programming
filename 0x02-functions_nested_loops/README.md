@@ -1,0 +1,1 @@
+This is the section to practice function
