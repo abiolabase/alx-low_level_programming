@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+/**
+ * main - prints alphabet to display
+ *
+ * Return: 0
+ */
+int main(void)
+{
+char d;  
+int c;
+c = 0;
+d = a;
+while (c < 10)
+{
+putchar(c + '0');
+c++;
+}
+while (d < g)
+{
+putchar(d);
+d++;
+}
+putchar('\n');
+return (0);
+}
