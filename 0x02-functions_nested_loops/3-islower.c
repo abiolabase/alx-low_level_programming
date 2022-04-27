@@ -10,7 +10,7 @@ int islower(int c)
 {
 if (c >= 141 && c <= 172)
 {
-Return (1);
+return (1);
 }
 else
 {
