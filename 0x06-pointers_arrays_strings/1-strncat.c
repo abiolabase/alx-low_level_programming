@@ -17,7 +17,7 @@ while (count2 < n)
 {
 *(dest + count) = *(src + count2);
 if (*(src + count2) == '\0')
-break;				
+  break;
 count++;
 count2++;
 }
