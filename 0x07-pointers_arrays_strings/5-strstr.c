@@ -23,9 +23,7 @@ haystack++;
 pneedle++;
 }
 if (!*pneedle)
-{
 return (bhaystack);
-}
 haystack = bhaystack + 1;
 }
 return (0);
