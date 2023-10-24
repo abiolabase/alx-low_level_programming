@@ -1,5 +1,4 @@
 #include "header.h"
-
 /**
  * print_number - prints an integer.
  * @n: input integer.
