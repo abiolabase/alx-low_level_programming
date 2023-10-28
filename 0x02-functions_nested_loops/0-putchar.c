@@ -1,10 +1,10 @@
 #include <unistd.h>
 #include "main.h"
 
-/*
- * main - Prints _putchar as a message.
+/**
+ * main - print _putchar
  *
- * Return: Always 0 (Success)
+ * Return: On success 0.
  */
 int main(void)
 {
